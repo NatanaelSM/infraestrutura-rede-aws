@@ -14,7 +14,7 @@ Projeto acadêmico com o objetivo de desenvolver uma infraestrutura de rede para
 
 ## 📹 Topologia De Rede
 
-
+![Topologia](./images/topologia.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
