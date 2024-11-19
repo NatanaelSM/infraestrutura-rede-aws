@@ -309,4 +309,9 @@ sudo openvpn --config chave
 sudo openvpn --config chave
 ```
 
+**Desta forma a infraestrutura está funcionando!**<br/><br/>
+**Para acessar a página desejada, o cliente precisará, primeiramente, se conectar à VPN; sem isso, o acesso será recusado.**<br/><br/>
+**Uma vez conectado ao servidor VPN, ao digitar o IP 192.168.0.100 no navegador, o cliente será automaticamente redirecionado para a página desejada. O IP real da instância EC2, onde o projeto está hospedado, é camuflado pelo proxy reverso, enquanto o load balancer distribui as cargas de acordo com as requisições.**<br/><br/>
+**Tanto o front-end quanto o back-end do projeto estão sendo executados via Docker, e os dados utilizados são armazenados e monitorados em um banco MySQL, que está em uma instância RDS na AWS.**
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=d3d3d3&height=120&section=footer"/>
